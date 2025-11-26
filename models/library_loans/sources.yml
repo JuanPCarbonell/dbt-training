@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: library
+    database: DBT_WORKSHOP_DB
+    schema: library_loans
+    tables:
+      - name: books_factual
+      - name: books_fictional
+      - name: loans
+      - name: members
